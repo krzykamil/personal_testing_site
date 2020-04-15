@@ -1,11 +1,13 @@
 class Auth0Controller < ApplicationController
+
+  attr_accessor :user_info
+
   def callback
     # This stores all the user information that came from Auth0
     # and the IdP
-    session[:userinfo] = request.env['omniauth.auth']
-
+    session[:user_info] = request.env['omniauth.auth']
     # Redirect to the URL you want after successful auth
-    redirect_to "http://localhost:3000/logged_in/"
+    redirect_to "/dashboard"
   end
 
   def failure

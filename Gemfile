@@ -10,11 +10,14 @@ gem 'sass-rails', '~> 5'
 gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
-gem 'omniauth-auth0', '~> 2.2'
-gem 'omniauth-rails_csrf_protection', '~> 0.1'
+gem 'omniauth-auth0'
+gem 'omniauth-rails_csrf_protection'
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'pry'
+gem 'activerecord-session_store'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

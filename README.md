@@ -34,7 +34,6 @@ This site is about ME to try, learn and use some technologies, solutions etc. an
 * [ ]  Working Backend
 
 **System**
-* [ ] Trailblazer Operations
 * [ ] Admin Panel
 * [ ] CRM
 * [ ] Blog Post Creation
@@ -60,14 +59,11 @@ This site is about ME to try, learn and use some technologies, solutions etc. an
 
 **Frontend:**
 
-- [React](https://reactjs.org/)
-- [Next.js](https://nextjs.org/)
 - [styled-components](https://www.styled-components.com/)
 - [Blueprint](https://blueprintjs.com/ ) <!-- -  maybe -->
 
 **Backend:**
 
-- [Trailblazer](http://trailblazer.to)
 - [Rails](https://rubyonrails.org/)
 - [MongoDB](https://www.mongodb.com/)  <!-- Maybe -->
 - [Auth0](https://auth0.com/)
